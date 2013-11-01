@@ -1,0 +1,30 @@
+h1{
+	font-size: 1.5em;
+	line-height: 1.3em;
+	text-align: center;
+}
+
+table.results{
+	text-align: center;
+	font-weight: bold;
+}
+
+tr.row_odd{
+	background-color: #e8edff;
+	color: #669;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+tr.row{
+	color: #669;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+tr.coll{
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	background-color: #b9c9fe;
+}

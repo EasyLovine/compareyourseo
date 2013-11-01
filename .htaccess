@@ -1,0 +1,9 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^section/(.*)$   /index.php?section=$1 [L]
+RewriteRule ^user/(.*)/(.*)$   /index.php?user=$1&arg=$2 [L]
+RewriteRule ^user/(.*)$   /index.php?user=$1 [L]
+RewriteRule ^inscription/(.*)$   /index.php?inscription=$1 [L]
+RewriteRule ^validation/(.*)/(.*)$   /index.php?validation=$1&verif=$2 [L]
+RewriteRule ^download/(.*)$   /download.php?file=$1 [L]

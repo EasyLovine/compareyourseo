@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+p.pond select {
+    background: none!important;
+    border: none!important;
+    color: #1093C5;
+    font-size: 12px;
+    height: 18px!important;
+    width: 110px;
+}
+input.exp {
+    background: url("../images/input-bg.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #8AC6D9;
+    border-radius: 4px 4px 4px 4px;
+    color: #1093C5;
+    font-size: 12px;
+    height: 32px;
+    padding: 10px 5px 0;
+    width: 162px;
+}
+
+/* LOGGED USER */
+td.site-link a{text-decoration:underline;}
+/* LOGGIN MEMBER */
+.login-box input[type="text"], .login-box input[type="password"] { height:30px; padding-top:9px;}

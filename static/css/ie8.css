@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+input.exp {
+    background: url("../images/input-bg.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #8AC6D9;
+    border-radius: 4px 4px 4px 4px;
+    color: #1093C5;
+    font-size: 12px;
+    height: 32px;
+    padding: 10px 5px 0;
+    width: 162px;
+}
+p.pond span {
+    background: url("../images/select-bg.png") no-repeat scroll 0 0 transparent;
+    border-radius: 2px 2px 2px 2px;
+    display: block;
+    float: right;
+    height: 27px;
+    overflow: hidden;
+    padding: 5px 0 0 7px;
+    width: 79px;
+}
+p.pond select {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #1093C5;
+    font-size: 12px;
+    height: 24px;
+    width: 110px;
+	padding-bottom:8px;
+}
+ /* LOOGEDD USER */
+ button.add-champ, button.add-site{font-size:13px;} 
